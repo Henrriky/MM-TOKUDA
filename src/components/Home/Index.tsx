@@ -2,6 +2,8 @@ import React from 'react'
 import Header from './Header/Index';
 import Card from './Card/Index';
 import Foto1 from '../../assets/foto1.png';
+import Foto2 from '../../assets/foto2.png';
+import Foto3 from '../../assets/foto3.png';
 import './Index.css';
 
 export default function Home() {
@@ -18,10 +20,10 @@ export default function Home() {
                         <img src={Foto1} alt=""/>
                     </Card>
                     <Card text="Ferramentas">
-                        <img src={Foto1} alt=""/>
+                        <img src={Foto2} alt=""/>
                     </Card>
                     <Card text="Alarmes de incêndio">
-                        <img src={Foto1} alt=""/>
+                        <img src={Foto3} alt=""/>
                     </Card>
                 </div>
             </div>

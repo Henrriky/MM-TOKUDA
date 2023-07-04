@@ -10,7 +10,7 @@ export default function Card({ children, text}: CardProps) {
   return (
     <div className="card">
       {children}
-      <p>Disjuntores e Fios</p>
+      <p>{text}</p>
     </div>
   )
 }

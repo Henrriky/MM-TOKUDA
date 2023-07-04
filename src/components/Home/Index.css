@@ -58,9 +58,11 @@
 .home__wrapper .home__cards .card {
     background-color: var(--yellow-card-background);
     border-radius: 5px;
+    max-width: 300px;
 }
+
 .home__wrapper .home__cards .card img {
-    width: 300px;
+    max-width: 300px;
     height: auto;
 }
 

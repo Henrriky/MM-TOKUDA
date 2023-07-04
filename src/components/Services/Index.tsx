@@ -1,12 +1,13 @@
 import React from 'react'
 import CardServices from './Card/Index';
 import Foto4 from '../../assets/foto4.png';
+import "./index.css"
 
 export default function Services() {
   return (
     <section className="services">
-        <h2 className="services__title title">Sobre nós</h2>
-        <h3 className="about__subtitle subtitle">Entenda quem somos e por que existimos</h3>
+        <h2 className="services__title title">Serviços</h2>
+        <h3 className="about__subtitle subtitle">Conheça alguns dos produtos que nós vendemos</h3>
         <div className="about__content">
             <CardServices 
                 title="PRODUTOS ELÉTRICOS:" 
