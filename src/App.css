@@ -1,38 +1,38 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;500;600;700;800&display=swap');
+
+:root {
+  font-size: 62.5%; /* 1rem = 10px */ /* 1rem = 16 px no font-size: 100% */
+  --gray-button-header: #464646;
+  --green-blue-light: #63FFD0;
+  --black-card-text: #1E1E1E;
+  --yellow-card-background: #C3DB3D;
+  --blue-general-text: #3BDBAB;
+  --white: #FFFFFF;
+  --gray-background: #2B2B2B;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+* {
+  font-family: 'Kumbh Sans', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
-.App-header {
-  background-color: #282c34;
+body {
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: #2B2B2B;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
