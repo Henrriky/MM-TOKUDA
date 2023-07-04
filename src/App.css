@@ -1,14 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
 
 :root {
   font-size: 62.5%; /* 1rem = 10px */ /* 1rem = 16 px no font-size: 100% */
   --gray-button-header: #464646;
+  --white-subtitle-color: #EFEFEF;
   --green-blue-light: #63FFD0;
   --black-card-text: #1E1E1E;
   --yellow-card-background: #C3DB3D;
   --blue-general-text: #3BDBAB;
   --white: #FFFFFF;
   --gray-background: #2B2B2B;
+
+  --header-size: 134px;
 
 }
 
@@ -33,6 +37,8 @@ body {
   background-color: #2B2B2B;
 }
 
-
+.wrapper {
+  max-width: 1212px;
+}
 
 
