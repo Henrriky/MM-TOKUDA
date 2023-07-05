@@ -13,6 +13,10 @@
   --gray-background: #2B2B2B;
   --gray-services-text: #c2c2c2;
   --header-size: 134px;
+  --background-card-info: #323131;
+  --text-informations: #E6E7E8;
+  --text-card-color: #AFAEAF;
+  --background-card-color: #2A2A2A;
 
 }
 
@@ -35,6 +39,7 @@ html {
 body {
   min-height: 100vh;
   background-color: #2B2B2B;
+  overflow-x: hidden;
 }
 
 .wrapper {

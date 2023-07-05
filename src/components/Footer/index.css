@@ -1,0 +1,106 @@
+.footer {
+    margin-top: 3.8rem;
+}
+
+.footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__wrapper .footer__contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__wrapper h3 {
+    position: relative;
+    color: var(--white);
+    font-size: 3.2rem;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 4rem;
+}
+
+.footer__wrapper h3::after {
+    content: "";
+    display: block;
+    height: .3rem;
+    background-color: var(--yellow-card-background);
+    width: 80%;
+    margin-top: 1rem;
+}
+
+
+.footer__wrapper .footer__contact img {
+    max-width: 4rem;
+}
+
+.footer__wrapper .footer__contact a {
+    position: relative;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 400;
+    color: var(--white);
+    margin-bottom: 3rem;
+    padding-bottom: 1.5rem;
+    max-width: max-content;
+}
+
+.footer__wrapper .footer__contact a::after {
+    margin-top: 2rem;
+    content: '';
+    width: 0%;
+    height: 2px;
+    position: absolute;
+    display: block;
+    bottom: 0;
+    background-color: var(--green-blue-light);
+    transition: width 0.2s;
+}
+
+.footer__wrapper .footer__contact a:hover::after {
+    width: 100%;
+}
+
+
+
+.footer__wrapper .footer__location > div {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.footer__wrapper .footer__location img {
+    max-width: 8rem;
+}
+
+.footer__wrapper .footer__location h4 {
+    color: var(--white);
+    font-size: 2.8rem;
+    font-family: Kumbh Sans;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer__wrapper .footer__location p {
+    color: var(--blue-general-text);
+    font-size: 2.8rem;
+    font-family: Kumbh Sans;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer__copyright {
+    color: #787878;
+    font-size: 1.8rem;
+    font-family: Kumbh Sans;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 65rem;
+    padding: 3rem 0rem 1.5rem 3rem;
+}

@@ -5,7 +5,7 @@ export default function Difference() {
   return (
     <section className="difference">
       <div className="difference__wrapper wrapper">
-        <h2 className="difference__title title">DIFERENCIAL</h2>
+        <h2 className="difference__title title">Diferencial</h2>
         <div className="difference__content">
           <img src={Foto5} alt="" className="difference__image" />
           <div className="difference__content__text">

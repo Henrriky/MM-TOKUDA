@@ -1,0 +1,103 @@
+.informations {
+    margin-top: 5rem;
+    padding-bottom: 10rem;
+    border-bottom: 3px solid var(--blue-general-text);
+}
+
+.informations .wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.informations .wrapper h2 {
+    margin-bottom: 3rem;
+}
+
+.informations__content {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+
+.informations__content .card {
+    padding: 2rem 4rem;
+}
+
+.informations__content .img > img {
+    display: block;
+    height: 32.4rem;
+    max-height: 32.4rem;
+    max-width: 32.4rem;
+    margin: 0 auto;
+    margin-bottom: 2.4rem;
+
+}
+
+.informations__content .informations__content__info {
+    padding: 2.4rem 4rem;
+    background-color: var(--background-card-info);
+    border-radius: .5rem;
+    height: 37rem;
+}
+
+
+.informations__content .informations__content__info h3 {
+    color: var(--text-informations);
+    font-size: 3.6rem;
+    font-weight: 600;
+    line-height: normal;
+    display: inline;
+}
+
+.informations__content .informations__content__info h3 span {
+    color: var(--blue-general-text);
+}
+
+.informations__content__wrapper {
+    margin-top: 5rem;
+    display: flex;
+    gap: 8.1rem;
+}
+
+.informations__hour_content div {
+    margin-bottom: 1.5rem;
+}
+
+.informations__hour_content p {
+    color: var(--text-informations);
+    margin-bottom: 1rem;
+    font-size: 2.8rem;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.informations__hour_content span {
+    color: var(--blue-general-text);
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.informations__content__wrapper img {
+    max-width: 13.6rem;
+}
+
+.informations__cards__wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 22.4rem);
+    row-gap: 2.4rem;
+    column-gap: 6rem;
+    margin-top: 5rem;
+}
+
+.informations__payment_card {
+    padding: 2rem 4rem;
+    font-size: 2.4rem;
+    color: var(--text-card-color);
+    border-radius: .5rem;
+    border: 1px solid var(--gray-button-header);
+    background: var(--background-card-color);
+    text-align: center;
+    cursor: pointer;
+}
