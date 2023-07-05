@@ -7,7 +7,7 @@ import './Index.css';
 
 export default function Home() {
   return (
-    <section className="home">
+    <section className="home" id="home">
         <div className="home__presentation">
             <div className="background"></div>
             <Header/>

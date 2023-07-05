@@ -3,7 +3,7 @@ import "./index.css"
 
 export default function Difference() {
   return (
-    <section className="difference">
+    <section className="difference" id="difference">
       <div className="difference__wrapper wrapper">
         <h2 className="difference__title title">Diferencial</h2>
         <div className="difference__content">

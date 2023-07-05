@@ -8,7 +8,7 @@ import "./index.css"
 
 export default function Footer() {
   return (
-    <footer className="footer">
+    <footer className="footer" id="contact">
       <div className="footer__wrapper wrapper">
         <div className="footer__contact">
           <h3>Entre em contato</h3>

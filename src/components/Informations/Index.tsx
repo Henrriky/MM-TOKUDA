@@ -5,7 +5,7 @@ import "./index.css"
 
 export default function Informations() {
   return (
-    <section className="informations">
+    <section className="informations" id="informations">
       <div className="informations__wrapper wrapper">
         <h2 className="informations__title title">Pagamento e disponibilidade</h2>
         <div className="informations__content">

@@ -3,7 +3,7 @@ import "./Index.css"
 
 export default function About() {
   return (
-    <section className="about">
+    <section className="about" id="about">
       <div className="about__wrapper wrapper">
         <h2 className="about__title title">Sobre nós</h2>
         <div className="about__content">

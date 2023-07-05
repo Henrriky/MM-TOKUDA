@@ -6,7 +6,7 @@ import "./index.css"
 
 export default function Services() {
   return (
-    <section className="services">
+    <section className="services" id="services">
         <h2 className="services__title title">Serviços</h2>
         <div className="services__content">
         <h3 className="services__subtitle subtitle">Conheça alguns dos produtos que nós vendemos</h3>
