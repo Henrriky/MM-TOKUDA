@@ -18,9 +18,28 @@
 }
 
 .links li a {
+    position: relative;
     font-size: 1.8rem;
     font-weight: 600;
     color: var(--green-blue-light);
+    padding-bottom: 1rem;
+    max-width: max-content;
+}
+
+.links li a::after {
+    margin-top: 2rem;
+    content: '';
+    width: 0%;
+    height: 2px;
+    position: absolute;
+    display: block;
+    bottom: 0;
+    background-color: var(--green-blue-light);
+    transition: width 0.2s;
+}
+
+.links li a:hover::after {
+    width: 100%;
 }
 
 .links li.button a {

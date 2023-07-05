@@ -16,7 +16,7 @@ export default function Footer() {
             <img src={WhatsappSVG} alt="" className="footer__social__img" />
             (11) 5566-8798
           </a>
-          <a className="footer__social" href="#" target="_blank">
+          <a className="footer__social" href="mailto:mmtokuda123@gmail.com?subject=Redirecionado do site&body=Dúvida: " target="_blank">
             <img src={MailSVG} alt="" className="footer__social__img" />
             mmtokuda123@gmail.com
           </a>
