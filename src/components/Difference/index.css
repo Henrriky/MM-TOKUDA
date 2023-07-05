@@ -1,0 +1,28 @@
+.difference {
+    margin-top: 5rem;
+    padding-bottom: 10rem;
+    border-bottom: 3px solid var(--blue-general-text);
+}
+.difference .wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.difference .wrapper .difference__content {
+    margin-top: 9.5rem;
+    display: flex;
+    gap: 8rem;
+}
+
+
+.difference .wrapper .difference__content .difference__subtitle,
+.difference .wrapper .difference__content .difference__description {
+    max-width: 55rem;
+}
+
+.difference .wrapper .difference__content .difference__image {
+    max-width: 55rem;
+    object-fit: contain;
+    height: auto;
+}

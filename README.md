@@ -15,3 +15,16 @@
 </CardServices> */}
 
 services.tsx
+
+TAREFAS
+
+- [X] HOME
+- [X] ABOUT
+- [X] SERVICES
+- [X] DIFERENCIAL
+- [X] INFORMATIONS
+- [] FOOTER
+- [] IMAGES
+- [] RESPONSIVE
+- [] SEO AND IMAGES 
+- [] DEPLOY
