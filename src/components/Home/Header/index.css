@@ -31,7 +31,7 @@
     max-width: max-content;
 }
 
-.links li a::after {
+.links li a:not(.button2)::after {
     margin-top: 2rem;
     content: '';
     width: 0%;
@@ -43,7 +43,7 @@
     transition: width 0.2s;
 }
 
-.links li a:hover::after {
+.links li a:hover:not(.button2)::after {
     width: 100%;
 }
 

@@ -27,7 +27,7 @@ export default function Header() {
             <li><a href="#informations">Disponibilidade</a></li>
             <li><a href="#contact">Contato</a></li>
             <li className="button">
-                <a href="https://api.whatsapp.com/send?phone=551234567890" target="_blank">
+                <a href="https://api.whatsapp.com/send?phone=551234567890" target="_blank" className="button2">
                   <img src={whatsappSvg} alt="Logo do Whatsapp"/>
                   Fale com a gente
                 </a>
