@@ -6,7 +6,7 @@ import MailSVG from "../../assets/footer-icons/mail.svg";
 
 export default function Footer() {
   return (
-    <section className="footer">
+    <footer className="footer">
       <div className="difference__wrapper wrapper">
         <div className="footer__contact">
           <h3>Entre em contato</h3>
@@ -32,6 +32,6 @@ export default function Footer() {
           CNPJ: 00.478.805/0001-45
         </p>
       </div>
-    </section>
+    </footer>
   )
 }

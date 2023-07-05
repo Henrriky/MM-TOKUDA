@@ -1,5 +1,5 @@
-import React from 'react';
 import './App.css';
+
 import Home from './components/Home/Index';
 import About from './components/About/Index';
 import Services from './components/Services/Index';
@@ -11,10 +11,12 @@ function App() {
   return (
     <div className="App">
         <Home/>
+        <main>
         <About/>
         <Services/>
         <Difference/>
         <Informations/>
+        </main>
         <Footer/>
     </div>
   );

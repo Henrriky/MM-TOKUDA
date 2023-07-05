@@ -1,4 +1,3 @@
-import React from 'react'
 import Header from './Header/Index';
 import Card from './Card/Index';
 import Foto1 from '../../assets/foto1.png';

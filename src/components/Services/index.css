@@ -8,21 +8,93 @@
     border-bottom: 3px solid var(--blue-general-text);
 }
 
-.services .services__subtitle {
+.services .services__content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+
+.services .services__content > div {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-bottom: 4rem;
+}
+
+.services .services__content .services__subtitle {
     color: rgba(195, 219, 61, 0.75);
     text-shadow: 0px 7px 7px 0px rgba(0, 0, 0, 0.25);
     font-family: Kumbh Sans;
     font-weight: 700;
-    margin-bottom: 6.7rem;
+    margin-bottom: 4rem;
 }
 
-.services .services__content {
+.services .services__content__header {
     display: flex;
-    gap: 40px;
-    max-width: 90%;
+    gap: 2rem;
+    align-items: center;
 }
 
-.services .services__content .services__card {
+.services .services__content__header img {
+    max-width: 5rem;
+    height: 5.5rem;
+}
+
+.services .services__content__header h3 {
+    font-size: 3.4rem;
+    color: var(--yellow-card-background);
+    font-weight: 700;
+    line-height: normal;
+}
+
+.services ul.services__content__items {
+    margin-left: 2.5rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.services ul.services__content__items li {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.services ul.services__content__items li img {
+    max-width: 2.5rem;
+}
+
+.services ul.services__content__items li p {
+    color: var(--gray-services-text);
+    font-size: 1.8rem;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 169.023%;
+}
+
+.services .services__content__images {
+    display: grid;
+    grid-template-columns: repeat(3, 21.8rem);
+    border: 3px solid var(--yellow-card-background);
+    border-radius: 2rem;
+    padding: 2rem 2rem;
+    gap: 2.5rem;
+    max-width: min-content;
+}
+
+.services .services__content__images img {
+    object-fit: contain;
+    height: auto;
+    max-width: 21.8rem;
+    border-radius: 2rem;
+}
+
+
+
+
+
+
+/* .services .services__content .services__card {
     background-color: var(--blue-general-text);
     border-radius: .6rem;
     max-width: 400px;
@@ -47,4 +119,4 @@
     font-family: Poppins;
     font-weight: 500;
     line-height: 169.023%;
-}
+} */
