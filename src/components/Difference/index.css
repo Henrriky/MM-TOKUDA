@@ -34,7 +34,12 @@
 }
 
 @media screen and (max-width: 940px) {
+
+    .difference .wrapper .difference__content {
+        gap: 3rem;
+    }
     .difference .wrapper .difference__content .difference__image {
-        max-width: 45rem;
+        max-width: 35rem;
+        height: 35rem;
     }
 }
