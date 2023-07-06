@@ -37,7 +37,7 @@
     }
 }
 
-@media screen and (max-width: 1268px) {
+@media screen and (max-width: 940px) {
     .about .wrapper .about__content .about__image {
         max-width: 300px;
     }

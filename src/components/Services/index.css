@@ -117,7 +117,7 @@
     }
 }
 
-@media screen and (max-width: 968px) {
+@media screen and (max-width: 940px) {
 
     .services .services__content__header img {
         max-width: 3.6rem;
