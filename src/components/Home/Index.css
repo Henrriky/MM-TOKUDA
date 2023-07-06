@@ -120,3 +120,37 @@
         font-size: 4.8rem;
     }
 }
+
+@media screen and (max-width: 940px) {
+    .home__presentation .home__wrapper {
+        max-width: 70rem;
+    }
+
+    .home__wrapper .home__logo {
+        font-size: 7rem;
+        text-align: left;
+    }
+
+    .home__wrapper .home__subtitle {
+        font-size: 2.2rem;
+        text-align: left;
+    }
+
+    .home__wrapper .home__cards {
+        max-width: 1000px;
+        gap: 2.5rem;
+    }
+
+    .home__wrapper .home__cards .card {
+        max-width: 240px;
+    }
+
+    .home__wrapper .home__cards .card p {
+        font-size: 2rem;
+    }
+
+    .home__informations {
+        font-size: 3.2rem;
+        width: 600px;
+    }
+}
