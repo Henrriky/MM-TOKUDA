@@ -25,6 +25,12 @@ export default function Header() {
     return;
   }
 
+  const body = document.querySelector("body") as HTMLBodyElement | null;
+  if (body) {
+    body.style.overflowY = menuExpanded ? "hidden" : "scroll";
+  }
+
+
   window.addEventListener('scroll', alterBackgroundNav);
 
   return (
