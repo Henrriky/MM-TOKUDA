@@ -153,3 +153,49 @@
         padding: 3rem 0rem 1.5rem 3rem;
     }
 }
+
+@media screen and (max-width: 1268px) {
+
+    
+    .footer__wrapper {
+        gap: 12rem;
+    }
+    
+    .footer__wrapper h3 {
+        font-size: 2.4rem;
+    }
+    
+    .footer__wrapper .footer__contact img {
+        max-width: 2.6rem;
+    }
+    
+    .footer__wrapper .footer__contact a {
+        gap: 1.4rem;
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
+    }
+    
+    .footer__wrapper .footer__location > div {
+        gap: 2rem;
+    }
+    
+    .footer__wrapper .footer__location img {
+        max-width: 6rem;
+    }
+    
+    .footer__wrapper .footer__location h4 {
+        font-size: 1.8rem;
+    }
+    
+    .footer__wrapper .footer__location p {
+        font-size: 1.8rem;
+    }
+    
+    .footer__copyright {
+        color: #787878;
+        font-size: 1.5rem;
+        max-width: 40rem;
+        padding: 3rem 0rem 1.5rem 3rem;
+    }
+}
+

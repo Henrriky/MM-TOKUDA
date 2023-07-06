@@ -25,8 +25,9 @@ TAREFAS
 - [X] INFORMATIONS
 - [X] FOOTER
 - [X] IMAGES ACESSIBILITY
-- [] RESPONSIVE
-    - 1268px
-    - 920px
+- [X] RESPONSIVE
+    - [X] 1268px
+    - [X] 920px
+    - [] 740px
 - [] SEO AND IMAGES 
 - [] DEPLOY
