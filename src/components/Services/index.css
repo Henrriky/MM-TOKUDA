@@ -79,6 +79,7 @@
     padding: 2rem 2rem;
     gap: 2.5rem;
     max-width: min-content;
+    margin-left: 2rem;
 }
 
 .services .services__content__images img {
@@ -114,9 +115,39 @@
     .services .services__content__images img {
         max-width: 18rem;
     }
+}
+
+@media screen and (max-width: 968px) {
+
+    .services .services__content__header img {
+        max-width: 3.6rem;
+        height: 4.4rem;
+    }
     
+    .services .services__content__header h3 {
+        font-size: 2.8rem;
+    }
 
+    .services .services__content__images {
+        grid-template-columns: repeat(3, 16rem);
+        gap: 2rem;
+    }
 
+    .services ul.services__content__items li img {
+        max-width: 2.4rem;
+    }
+
+    .services ul.services__content__items li p {
+        color: var(--gray-services-text);
+        font-size: 1.6rem;
+        font-family: Poppins;
+        font-weight: 500;
+        line-height: 169.023%;
+    }
+
+    .services .services__content__images img {
+        max-width: 16rem;
+    }
 }
 
 
