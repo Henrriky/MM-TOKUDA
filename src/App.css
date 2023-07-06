@@ -81,3 +81,21 @@ body {
 }
 
 
+@media screen and (max-width: 1268px) {
+  .wrapper {
+    max-width: 964px;
+  }
+
+  .title {
+    font-size: 4.8rem;
+  }
+
+  .subtitle {
+    font-size: 3.2rem;
+  }
+
+  .description {
+    font-size: 1.4rem;
+  }
+}
+

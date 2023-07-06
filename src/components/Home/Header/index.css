@@ -57,3 +57,27 @@
     border-radius: 1.5rem;
 }
 
+@media screen and (max-width: 1268px) {
+    .navBar {
+        padding-inline: 60px;
+    }
+
+    .links {
+        display: flex;
+        gap: 4.5rem;
+    }
+
+    .links li a {
+        font-size: 1.6rem;
+    }
+
+    .links li.button a {
+        font-size: 1.6rem;
+        gap: 6px;
+        padding: 12px 6px;
+    }
+
+    .links li.button a img {
+        width: 2.5rem;
+    }
+}
