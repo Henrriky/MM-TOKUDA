@@ -27,6 +27,6 @@ TAREFAS
 - [X] IMAGES ACESSIBILITY
 - [] RESPONSIVE
     - 1268px
-    - 
+    - 920px
 - [] SEO AND IMAGES 
 - [] DEPLOY

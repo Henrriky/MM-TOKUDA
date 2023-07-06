@@ -17,6 +17,7 @@
   --text-informations: #E6E7E8;
   --text-card-color: #AFAEAF;
   --background-card-color: #2A2A2A;
+  --background-color: #2B2B2B;
 
 }
 
@@ -49,7 +50,7 @@ body::-webkit-scrollbar-thumb:hover {
 
 body {
   min-height: 100vh;
-  background-color: #2B2B2B;
+  background-color: var(--background-color);
   overflow-x: hidden;
 }
 
@@ -83,7 +84,7 @@ body {
 
 @media screen and (max-width: 1268px) {
   .wrapper {
-    max-width: 964px;
+    max-width: 900px;
   }
 
   .title {
@@ -97,5 +98,9 @@ body {
   .description {
     font-size: 1.4rem;
   }
+}
+
+@media screen and (max-width: 920px) {
+    
 }
 
