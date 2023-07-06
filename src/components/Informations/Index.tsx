@@ -1,6 +1,6 @@
-import IconHeadset from "../../assets/informations-icons/headset.svg";
-import TimeSVG from "../../assets/informations-icons/time.svg";
-import PaymentSVG from "../../assets/informations-icons/payment.svg";
+import IconHeadset from "../../assets/icons/informations-icons/headset.svg";
+import TimeSVG from "../../assets/icons/informations-icons/time.svg";
+import PaymentSVG from "../../assets/icons/informations-icons/payment.svg";
 import "./index.css"
 
 export default function Informations() {

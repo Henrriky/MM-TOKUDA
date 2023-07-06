@@ -1,4 +1,4 @@
-import Foto4 from "../../assets/foto4.png"
+import Foto4 from "../../assets/img/foto4.png"
 import "./Index.css"
 
 export default function About() {

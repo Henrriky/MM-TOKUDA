@@ -1,6 +1,6 @@
-import Check from '../../../assets/services-icons/check.svg'
-import Eletric from '../../../assets/services-icons/eletric.svg'
-import Exguish from '../../../assets/services-icons/exguish.svg'
+import Check from '../../../assets/icons/services-icons/check.svg'
+import Eletric from '../../../assets/icons/services-icons/eletric.svg'
+import Exguish from '../../../assets/icons/services-icons/exguish.svg'
 
 interface TopicsProps {
     text: string;

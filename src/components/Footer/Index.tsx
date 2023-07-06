@@ -1,7 +1,6 @@
-import Foto5 from "../../assets/foto5.png";
-import LocationSVG from "../../assets/footer-icons/location.svg";
-import WhatsappSVG from "../../assets/footer-icons/whatsappFooter.svg";
-import MailSVG from "../../assets/footer-icons/mail.svg";
+import LocationSVG from "../../assets/icons/footer-icons/location.svg";
+import WhatsappSVG from "../../assets/icons/footer-icons/whatsappFooter.svg";
+import MailSVG from "../../assets/icons/footer-icons/mail.svg";
 
 import "./index.css"
 
