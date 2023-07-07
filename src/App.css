@@ -150,4 +150,18 @@ body {
   }
 }
 
+@media screen and (max-width: 430px) {
+  .wrapper {
+    max-width: 320px;
+  }
+
+  .title {
+    font-size: 3.4rem;
+  }
+
+  .subtitle {
+    font-size: 2.3rem;
+  }
+}
+
 

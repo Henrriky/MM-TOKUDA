@@ -244,3 +244,36 @@
         width: 3.2rem;
     }
 }
+
+@media screen and (max-width: 940px) {
+    .button-menu {
+        margin-right: 1.5rem;
+    }
+
+    .logo-menu {
+        margin-left: 1.5rem;
+        max-width: 20rem;
+    }
+
+    .links li .icon-menu {
+        width: 2.5rem;
+        height: auto;
+    }
+
+    .links li a:not(.button2) {
+        font-size: 2rem;
+    }
+
+    .links li.button {
+        width: 80%;
+    }
+
+    .links li.button a {
+        font-size: 2rem;
+    }
+
+    .links li.button a img {
+        width: 3rem;
+    }
+
+}
