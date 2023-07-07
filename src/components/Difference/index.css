@@ -52,3 +52,17 @@
         height: 30rem;
     }
 }
+
+@media screen and (max-width: 600px) {
+    .difference .wrapper .difference__content {
+        gap: initial;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .difference .wrapper .difference__content .difference__image {
+        max-width: 30rem;
+        height: 30rem;
+        order: 1;
+    }
+}

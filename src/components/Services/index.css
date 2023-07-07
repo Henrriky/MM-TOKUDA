@@ -178,6 +178,39 @@
     }
 }
 
+@media screen and (max-width: 740px) {
+    .services .services__content__header {
+        gap: 1.5rem;
+    }
+
+    .services .services__content__header > img {
+        max-width: 2.4rem;
+        height: 3rem;
+    }
+    
+    .services .services__content__header h3 {
+        font-size: 2.2rem;
+    }
+
+    .services ul.services__content__items li p {
+        font-size: 1.4rem;
+    }
+
+    .services ul.services__content__items li img {
+        max-width: 2.2rem;
+    }
+
+    .services .services__content__images {
+        grid-template-columns: repeat(3, 11rem);
+        gap: 1.5rem;
+    }
+
+    .services .services__content__images img {
+        max-width: 11rem;
+    }
+}
+
+
 
 
 

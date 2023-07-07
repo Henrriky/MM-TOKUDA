@@ -259,5 +259,46 @@
     }
 }
 
+@media screen and (max-width: 600px) {
+    .informations .wrapper h2 {
+        text-align: center;
+    }
+    .informations__content {
+        gap: 6rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .informations__content .informations__content__info {
+        padding: 1.6rem 2.6rem;
+        height: 25rem;
+    }
+
+    .informations__hour_content p {
+        font-size: 1.8rem;
+    }
+
+    .informations__hour_content span {
+        font-size: 1.6rem;
+    }
+    
+    .informations__content__wrapper img {
+        max-width: 8rem;
+    }    
+    
+    .informations__cards__wrapper {
+        grid-template-columns: repeat(2, 13rem);
+        row-gap: 1.2rem;
+        column-gap: 2.4rem;
+        margin-top: 5rem;   
+    }
+
+    .informations__payment_card {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+}
+
+
 
 

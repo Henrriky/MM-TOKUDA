@@ -17,13 +17,13 @@ export default function Home() {
                 <h1 className="home__logo">M.M TOKUDA</h1>
                 <h2 className="home__subtitle">Materiais Eletricos e Acessórios Gerais e de combate incêndio</h2>
                 <div className="home__cards">
-                    <Card text="Disjuntores e Fios">
+                    <Card text="Produtos elétricos">
                         <img src={Foto1} alt=""/>
                     </Card>
-                    <Card text="Ferramentas">
+                    <Card text="Acessórios">
                         <img src={Foto2} alt=""/>
                     </Card>
-                    <Card text="Alarmes de incêndio">
+                    <Card text="Incêndio">
                         <img src={Foto3} alt=""/>
                     </Card>
                 </div>

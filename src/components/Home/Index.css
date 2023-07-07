@@ -189,3 +189,36 @@
         width: 500px;
     }
 }
+
+@media screen and (max-width: 600px) {
+    .home__presentation .home__wrapper {
+        max-width: 40rem;
+    }
+
+    .home__wrapper .home__logo {
+        font-size: 5rem;
+    }
+
+    .home__wrapper .home__subtitle {
+        font-size: 1.6rem;
+    }
+
+    .home__wrapper .home__cards {
+        max-width: 500px;
+        gap: 1.5rem;
+        top: 130px;
+    }
+
+    .home__wrapper .home__cards .card {
+        max-width: 200px;
+    }
+
+    .home__wrapper .home__cards .card p {
+        font-size: 1.2rem;
+    }
+
+    .home__informations {
+        font-size: 2.4rem;
+        width: 400px;
+    }
+}
