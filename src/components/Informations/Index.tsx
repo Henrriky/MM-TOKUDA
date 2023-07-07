@@ -17,11 +17,11 @@ export default function Informations() {
                 <div className="informations__hour_content">
                   <div>
                     <p>Segunda à Sexta</p>
-                    <span>Das 8:00 às 20:00</span>
+                    <span>Das 8:00 às 17:00</span>
                   </div>
                   <div>
                     <p>Sabado e Domingo</p>
-                    <span>Das 8:00 às 18:00</span>
+                    <span>Das 8:00 às 13:00</span>
                   </div>
                 </div>
                 <img src={IconHeadset} alt="Icone de um fone" />

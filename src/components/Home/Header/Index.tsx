@@ -27,7 +27,7 @@ export default function Header() {
 
   const body = document.querySelector("body") as HTMLBodyElement | null;
   if (body) {
-    body.style.overflowY = menuExpanded ? "hidden" : "scroll";
+      body.style.overflowY = menuExpanded ? "hidden" : "scroll";
   }
 
 
@@ -68,24 +68,24 @@ export default function Header() {
       </button>
       {/* FIM MOBILE */}
       <ul className={`${ menuExpanded ? "links menu-expanded" : "links"}`}>
-        <li onClick={() => { setMenuExpanded(!menuExpanded)}}>
+        <li onClick={() => { setMenuExpanded(false)}}>
           <img className="icon-menu" src={Home} alt="" />
           <a href="#home">Home</a>
         </li>
-        <li onClick={() => { setMenuExpanded(!menuExpanded)}}>
+        <li onClick={() => { setMenuExpanded(false)}}>
           <img className="icon-menu" src={Services} alt="" />
           <a href="#services">Serviços</a>
         </li>
-        <li onClick={() => { setMenuExpanded(!menuExpanded)}}>
+        <li onClick={() => { setMenuExpanded(false)}}>
           <img className="icon-menu" src={About} alt="" />
           <a href="#about">Sobre</a></li>
-        <li onClick={() => { setMenuExpanded(!menuExpanded)}}>
+        <li onClick={() => { setMenuExpanded(false)}}>
           <img className="icon-menu"src={Difference} alt="" />
           <a href="#difference">Diferencial</a></li>
-        <li onClick={() => { setMenuExpanded(!menuExpanded)}}>
+        <li onClick={() => { setMenuExpanded(false)}}>
           <img className="icon-menu clock"src={Clock} alt="" />
           <a href="#informations">Disponibilidade</a></li>
-        <li onClick={() => { setMenuExpanded(!menuExpanded)}}>
+        <li onClick={() => { setMenuExpanded(false)}}>
           <img className="icon-menu"src={Contact} alt="" />
           <a href="#contact">Contato</a></li>
         <li className="button">

@@ -29,5 +29,6 @@ TAREFAS
     - [X] 1268px
     - [X] 920px
     - [] 740px
+    - [] 480px
 - [] SEO AND IMAGES 
 - [] DEPLOY
