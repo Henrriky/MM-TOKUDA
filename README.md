@@ -28,7 +28,7 @@ TAREFAS
 - [X] RESPONSIVE
     - [X] 1268px
     - [X] 920px
-    - [] 740px
-    - [] 480px
+    - [X] 740px
+    - [X] 600px;
 - [] SEO AND IMAGES 
 - [] DEPLOY

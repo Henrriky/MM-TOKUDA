@@ -43,3 +43,12 @@
         height: 35rem;
     }
 }
+@media screen and (max-width: 740px) {
+    .difference .wrapper .difference__content {
+        gap: 0.1rem;
+    }
+    .difference .wrapper .difference__content .difference__image {
+        max-width: 30rem;
+        height: 30rem;
+    }
+}

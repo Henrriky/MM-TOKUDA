@@ -114,7 +114,26 @@ body {
     }
 
     .description {
-      font-size: 1.2rem;
+      font-size: 1.4rem;
     }
 }
+
+@media screen and (max-width: 740px) {
+  .wrapper {
+    max-width: 590px;
+  }
+
+  .title {
+    font-size: 3.8rem;
+  }
+
+  .subtitle {
+    font-size: 2.2rem;
+  }
+
+  .description {
+    font-size: 1.2rem;
+  }
+}
+
 

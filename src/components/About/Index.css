@@ -42,3 +42,13 @@
         max-width: 300px;
     }
 }
+
+@media screen and (max-width: 740px) {
+    .about .wrapper .about__content .about__image {
+        max-width: 230px;
+    }
+
+    .about .wrapper .about__content {
+        gap: 2.5rem;
+    }
+}

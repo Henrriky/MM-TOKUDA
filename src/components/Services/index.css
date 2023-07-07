@@ -138,15 +138,43 @@
     }
 
     .services ul.services__content__items li p {
-        color: var(--gray-services-text);
         font-size: 1.6rem;
-        font-family: Poppins;
-        font-weight: 500;
-        line-height: 169.023%;
     }
 
     .services .services__content__images img {
         max-width: 16rem;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .services .services__content__header {
+        gap: 1.5rem;
+    }
+
+    .services .services__content__header > img {
+        max-width: 2.8rem;
+        height: 3rem;
+    }
+    
+    .services .services__content__header h3 {
+        font-size: 2.2rem;
+    }
+
+    .services ul.services__content__items li p {
+        font-size: 1.5rem;
+    }
+
+    .services ul.services__content__items li img {
+        max-width: 2.2rem;
+    }
+
+    .services .services__content__images {
+        grid-template-columns: repeat(3, 13rem);
+        gap: 1.5rem;
+    }
+
+    .services .services__content__images img {
+        max-width: 13rem;
     }
 }
 
