@@ -19,12 +19,15 @@ import Topics from './Topics/Index';
 import "./index.css"
 
 export default function Services() {
+  const eletricProducts: Array<string> = ["Cabos", "Fios", "Disjuntores", "Canduites", "Lâmpadas", "Interruptores", "Cabo Flexível"];
+  const hidraulicProducts: Array<string> = ["Extintores", "Alarmes", "Conexões", "Detector de Fumaça", "Central de alarme", "Chave Storz", "Tubos Galvanizado"];
+
   return (
     <section className="services" id="services">
         <h2 className="services__title title">Serviços</h2>
         <div className="services__content">
         <h3 className="services__subtitle subtitle">Conheça alguns dos produtos que nós vendemos</h3>
-            <Topics text="Materiais elétricos em Geral" icon="eletric">
+            <Topics text="Materiais elétricos em Geral" icon="eletric" products={eletricProducts}>
                 <img src={Canduite} alt="Canduite" />
                 <img src={Perfilado} alt="Perfilado Chapa" />
                 <img src={Condulete} alt="Condulete" />
@@ -32,7 +35,7 @@ export default function Services() {
                 <img src={KitEletrico} alt="Imagem com lampada, condulete, tomada e fio" />
                 <img src={Fios} alt="Fios coloridos" />
             </Topics>
-            <Topics text="Equipamentos  de combate à incêndio" icon="exguish">
+            <Topics text="Equipamentos  de combate à incêndio" icon="exguish" products={hidraulicProducts}>
                 <img src={Tubo} alt="Tubo Galvanizado Hidrante" />
                 <img src={Conexoes} alt="Conexões para tubos de proteção contra incêndio Conexões ranhuradas de ferro dúctil" />
                 <img src={Conector} alt="Conector azul e branco à prova d'agua" />

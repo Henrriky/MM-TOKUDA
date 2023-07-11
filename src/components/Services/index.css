@@ -50,7 +50,9 @@
     margin-left: 2.5rem;
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     gap: 2rem;
+    max-width: 800px;
 }
 
 .services ul.services__content__items li {

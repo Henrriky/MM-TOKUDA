@@ -34,9 +34,9 @@ export default function Informations() {
               <h3>Formas de <span>Pagamento</span></h3>
               <div className="informations__cards__wrapper">
                 <span className="informations__payment_card">Cartão</span>
-                <span className="informations__payment_card">Cartão</span>
-                <span className="informations__payment_card">Cartão</span>
-                <span className="informations__payment_card">Cartão</span>
+                <span className="informations__payment_card">PIX</span>
+                <span className="informations__payment_card">FUTURO</span>
+                <span className="informations__payment_card">FUTURO</span>
               </div>
             </div>
           </div>

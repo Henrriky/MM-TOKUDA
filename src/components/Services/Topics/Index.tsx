@@ -6,9 +6,10 @@ interface TopicsProps {
     text: string;
     icon: string;
     children: React.ReactNode;
+    products: string[];
   }
   
-export default function Topics({ children, text, icon}: TopicsProps) {
+export default function Topics({ children, text, icon, products}: TopicsProps) {
     return (
         <div>
             <div className="services__content__header">
@@ -18,22 +19,14 @@ export default function Topics({ children, text, icon}: TopicsProps) {
                 </h3>
             </div>
             <ul className="services__content__items">
-                <li>
-                    <img src={Check} alt="" />
-                    <p>Cabos</p>
-                </li>
-                <li>
-                    <img src={Check} alt="" />
-                    <p>Cabos</p>
-                </li>
-                <li>
-                    <img src={Check} alt="" />
-                    <p>Cabos</p>
-                </li>
-                <li>
-                    <img src={Check} alt="" />
-                    <p>Cabos</p>
-                </li>
+                {
+                    products.map((product, index) => (
+                        <li key={index}>
+                            <img src={Check} alt="" />
+                            <p>{product}</p>
+                        </li>
+                    ))
+                }
             </ul>
             <div className="services__content__images">
                 {children}
